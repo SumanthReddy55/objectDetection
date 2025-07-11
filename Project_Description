@@ -1,0 +1,16 @@
+Description : 
+# Object Detection using TensorFlow and OpenCV
+
+This project detects objects in images using TensorFlow's SSD MobileNet v3 model and OpenCV DNN module.
+
+## How to Run
+
+1. Install dependencies:
+pip install -r requirements.txt
+2. Add your test images to the `data/` folder.
+
+3. Run:
+python object_detection_demo.py
+## Output
+
+Displays each image with bounding boxes and class labels.
